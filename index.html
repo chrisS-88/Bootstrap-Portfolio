@@ -13,39 +13,74 @@
     />
   </head>
   <body>
-    <div class="container text-center my-5">
-      <h1>Chris Smart</h1>
-      <h3>
-        Portfolio.
-        <small class="text-body-secondary"> Made with Bootstrap</small>
-      </h3>
-    </div>
-
     <!-- navbar -->
-    <div class="container">
-      <nav>
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a href="#" class="nav-link">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="images/portfolio icon.png"
+            alt="portfolio image"
+            width="80px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutMe">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!-- jumbotron -->
-    <div class="mt-4 p-5 bg-primary text-white rounded container">
-      <div class="container">
-        <h3>Hi, I'm Chris</h3>
-        <h4>A Front End Web Developer based in Leeds</h4>
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Hi, I'm Chris</h1>
+        <p class="col-md-8 fs-4">
+          Front End Web Developer. Digital Designer. Tech Fiend
+        </p>
       </div>
-      <img src="#" alt="profile image" />
     </div>
+
+    <!-- main content -->
+
+    <!-- about me -->
+    <div class="container">
+      <h2 class="text-center p-5" id="aboutMe">About Me</h2>
+      <div class="bg-dark-subtle p-3 mb-5">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim,
+          voluptas expedita. Repellat iste laborum laboriosam dolore tempore
+          obcaecati repudiandae tempora quis minima. Mollitia dolorum repellat,
+          nesciunt alias accusamus corporis. Nisi ipsum temporibus, natus
+          repellendus nemo officia numquam neque dignissimos, assumenda officiis
+          dicta aut esse fugiat corporis. Deserunt in quo consectetur!
+        </p>
+      </div>
+      <!-- projects grid -->
+    </div>
+
+    <!-- main content end -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
