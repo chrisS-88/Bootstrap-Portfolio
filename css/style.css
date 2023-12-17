@@ -1,1 +1,13 @@
+:root {
+  /* colours */
+  --info: #17a2b8;
+}
 
+/* nav style */
+.nav-item a:hover {
+  color: var(--info) !important;
+}
+
+.navbar {
+  opacity: 90%;
+}
