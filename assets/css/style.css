@@ -9,6 +9,11 @@
   font-family: "Open Sans", sans-serif;
 }
 
+/* body colour */
+body {
+  background-color: rgb(238, 238, 238);
+}
+
 /* nav style */
 .portfolio-tag {
   color: var(--info);
