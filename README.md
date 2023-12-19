@@ -12,7 +12,7 @@ The website features a homepage with a profile image and basic introduction with
 
 ## Link to deployed website
 
-https://chriss-88.github.io/Bootstrap-Portfolio/
+https://chriss-88.github.io/Bootstrap-Portfolio-Chris-Smart/
 
 ## Screenshot of deployed website
 
