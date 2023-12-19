@@ -12,6 +12,8 @@ The website features a homepage with a profile image and basic introduction with
 
 ## Link to deployed website
 
+https://chriss-88.github.io/Bootstrap-Portfolio/
+
 ## Screenshot of deployed website
 
 <img src="assets/images/Bootstrap_portfolio.png" width="500">
