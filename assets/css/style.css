@@ -38,3 +38,17 @@ body {
 .contact-card-body {
   border-left: 1px solid var(--info);
 }
+
+/* footer */
+.bootstrap-link {
+  text-decoration: none;
+  color: var(--info);
+}
+
+.bootstrap-link:hover {
+  text-decoration: underline;
+}
+
+.top-button:hover {
+  box-shadow: 3px 3px 3px grey;
+}
