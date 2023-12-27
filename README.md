@@ -16,7 +16,7 @@ https://chriss-88.github.io/Bootstrap-Portfolio-Chris-Smart/
 
 ## Screenshot of deployed website
 
-<img src="./assets/images/bootstrap_screenshot.png.png" width="500">
+<img src="assets/images/bootstrap_screenshot.png.png" width="500">
 
 ## License
 
